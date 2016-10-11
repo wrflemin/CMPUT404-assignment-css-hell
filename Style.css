@@ -1,0 +1,25 @@
+p, div, span, pre {
+  font-family: "Courier New", Courier, monospace;
+  color: #C9D1C8;
+}
+
+
+body {
+  background: #04202C !important;
+}
+
+img {
+  border-style: solid !important;
+  border-width: 3em !important;
+  border-color: #5B7065 #C9D1C8 !important;
+}
+
+
+
+h1,h2,h3,h4,h5 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  color: #5B7065;
+}
