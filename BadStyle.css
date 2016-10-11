@@ -1,0 +1,44 @@
+body {
+	background-image: url("uglyBackground.gif");
+}
+head {
+	font-family: "Courier New", Courier, monospace;
+	text-align: centre;
+}
+
+div.centre {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin: auto;
+	width:66%;	
+}
+h1.aboutHeader{
+	flex-basis: 100%;
+}
+.box {
+	border: solid;
+	flex-basis: 100%;
+}
+p.about {
+	flex-basis: 66%;
+}
+div.about {
+	background-color: lime;	
+	display: flex; /* or inline-flex */
+	flex-direction: row;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	padding: 1em;
+}
+
+div.professionalHistory {
+	background-color: #4842f4;
+}
+
+div.skills {
+	background-color: #42f4f4;
+}
+
+div.sidebar {
+	background-color: #f44242;
+}
