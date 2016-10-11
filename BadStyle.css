@@ -20,7 +20,8 @@ h1.aboutHeader{
 	flex-basis: 100%;
 }
 p.about {
-	flex-basis: 66%;
+	flex-basis: 75%;
+	padding-left: 1em;
 }
 div.about {
 	background-color: lime;	
