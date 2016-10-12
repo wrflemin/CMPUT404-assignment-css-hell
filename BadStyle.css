@@ -10,6 +10,10 @@
 
 body {
 	background-image: url("corgi.gif");
+	display: flex; /* or inline-flex */
+	flex-direction: row;
+	align-items: flex-start;
+	flex-wrap: wrap;
 }
 
 head {
@@ -105,4 +109,13 @@ div.skills {
 
 div.sidebar {
 	background-color: #f44242;
+	height: 100vh;
+	position: relative;
+	margin-right: 1em;
+	display: flex;
+	flex-direction: column;
+}
+
+.shrink{
+	flex-shrink: 0;
 }
