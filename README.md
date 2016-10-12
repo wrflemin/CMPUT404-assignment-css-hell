@@ -31,3 +31,6 @@ References
 
 http://www.littlewebhut.com/css/how_to_apply_css_styles/
 https://media.giphy.com/media/aGeePr7nv6ra8/giphy.gif
+https://media.giphy.com/media/KY7SQGKthgplm/giphy.gif
+https://media.giphy.com/media/S4HKH9KgRGMdq/giphy.gif
+https://s-media-cache-ak0.pinimg.com/originals/46/8e/6d/468e6dd26ba5182c02bd98604c3db7e6.gif

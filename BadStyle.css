@@ -1,6 +1,17 @@
-body {
-	background-image: url("uglyBackground.gif");
+@keyframes rainbow {
+    0% {color: red;}
+    15% {color: orange;}
+		30% {color: yellow;}
+		45% {color: green;}
+		60% {color: blue;}
+		75% {color: indigo;}
+		100% {color: violet;}
 }
+
+body {
+	background-image: url("corgi.gif");
+}
+
 head {
 	font-family: "Courier New", Courier, monospace;
 	text-align: centre;
@@ -10,34 +21,86 @@ div.centre {
 	margin-top: 1em;
 	margin-bottom: 1em;
 	margin: auto;
-	width:66%;	
+	width:66%;
+	padding: 1em;
 }
+
 h1.aboutHeader{
+	font-family: "Comic Sans MS", cursive, sans-serif;
 	flex-basis: 100%;
 }
+
 .box {
 	border: solid;
 	flex-basis: 100%;
 }
+
+.rainbowAnimation{
+	animation-name: rainbow;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+.about{
+	animation-name: rainbow;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
 p.about {
 	flex-basis: 75%;
 	padding-left: 1em;
+	color: yellow;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 }
+
 div.about {
-	background-color: lime;	
 	display: flex; /* or inline-flex */
 	flex-direction: row;
 	align-items: flex-start;
 	flex-wrap: wrap;
-	padding: 1em;
+	background-image: url("uglyBackground.gif");
+}
+
+.professionalHistory{
+	animation-name: rainbow;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
 }
 
 div.professionalHistory {
-	background-color: #4842f4;
+	background-image: url("seizure.gif");
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+h1.professionalHistory {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h2.professionalHistory {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h3.professionalHistory {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h4.professionalHistory {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+p.professionalHistory {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.languages{
+	margin-bottom: 1em;
 }
 
 div.skills {
-	background-color: #42f4f4;
+	background-image: url("matrix.gif");
+	color: yellow;
 }
 
 div.sidebar {
