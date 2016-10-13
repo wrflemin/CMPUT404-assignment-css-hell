@@ -17,6 +17,16 @@ head {
 	text-align: centre;
 }
 
+div.page-header{
+	background-image: url("NYAN_CAT.gif");
+	padding: 6em;
+}
+
+h1.page-header {
+	text-align: right;
+	text-align: bottom;
+}
+
 body, div.page-body {
 	display: flex;
 	flex-direction: column;
@@ -28,10 +38,14 @@ div.content{
 }
 
 div.sidebar {
-	background-color: #f44242;
+	background-image: url("corgiAndPumpkin.gif");
 	order: -1;
 	margin-left: 1em;
 	margin-bottom: 1em;
+}
+
+h1.sidebar {
+	text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -66,7 +80,7 @@ h1.aboutHeader{
 	flex-basis: 100%;
 }
 
-.about, .skills, .rainbowAnimation, .professionalHistory{
+.about, .skills, .rainbowAnimation, .professionalHistory, .sidebar, .page-header{
 	animation-name: rainbow;
 	animation-duration: 4s;
 	animation-iteration-count: infinite;
