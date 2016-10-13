@@ -10,9 +10,6 @@
 
 body {
 	background-image: url("corgi.gif");
-	float: left;
-	width: 100%;
-	position: relative;
 }
 
 head {
@@ -20,15 +17,36 @@ head {
 	text-align: centre;
 }
 
-div.centre {
-	margin-top: 1em;
+body, div.page-body {
+	display: flex;
+	flex-direction: column;
+}
+
+div.content{
+	flex: 1;
+	margin-left: 1em;
+}
+
+div.sidebar {
+	background-color: #f44242;
+	order: -1;
+	margin-left: 1em;
 	margin-bottom: 1em;
-	width:60%;
-	padding: 1em;
-	position:relative;
-	right: 5%;
-  	overflow:hidden;
-	float: right;
+}
+
+@media (min-width: 768px) {
+  div.page-body {
+    flex-direction: row;
+    flex: 1;
+  }
+  div.content {
+    flex: 1;
+  }
+  div.sidebar {
+    /* 12em is the width of the columns */
+    flex: 0 0 12em;
+    margin: 0;
+  }
 }
 
 h1.aboutHeader{
@@ -115,17 +133,6 @@ h1.technologies{
 div.skills {
 	background-image: url("matrix.gif");
 	color: yellow;
-}
-
-div.sidebar {
-	background-color: #f44242;
-	margin: 1em;
-	float:left;
-  	width:26%;
-  	position:relative;
-  	left:0%;
-  	overflow:hidden;
-	height: 100%;
 }
 
 .shrink{
