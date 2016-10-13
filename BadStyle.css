@@ -119,8 +119,7 @@ div.skills {
 
 div.sidebar {
 	background-color: #f44242;
-	margin-right: 1em;
-	margin-top: 1em;
+	margin: 1em;
 	float:left;
   	width:26%;
   	position:relative;
