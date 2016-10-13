@@ -1,11 +1,11 @@
 @keyframes rainbow {
-    0% {color: red;}
-    15% {color: orange;}
-		30% {color: yellow;}
-		45% {color: green;}
-		60% {color: blue;}
-		75% {color: indigo;}
-		100% {color: violet;}
+    	0% {color: red;}
+    	15% {color: orange;}
+	30% {color: yellow;}
+	45% {color: green;}
+	60% {color: blue;}
+	75% {color: indigo;}
+	100% {color: violet;}
 }
 
 body {
@@ -27,7 +27,7 @@ div.centre {
 	padding: 1em;
 	position:relative;
 	right: 5%;
-  overflow:hidden;
+  	overflow:hidden;
 	float: right;
 }
 
@@ -104,6 +104,14 @@ p.professionalHistory {
 	margin-bottom: 1em;
 }
 
+h1.languages{
+	padding-left:1em;
+}
+
+h1.technologies{
+	padding-left: 1em;
+}
+
 div.skills {
 	background-image: url("matrix.gif");
 	color: yellow;
@@ -114,10 +122,10 @@ div.sidebar {
 	margin-right: 1em;
 	margin-top: 1em;
 	float:left;
-  width:26%;
-  position:relative;
-  left:0%;
-  overflow:hidden;
+  	width:26%;
+  	position:relative;
+  	left:0%;
+  	overflow:hidden;
 	height: 100%;
 }
 
