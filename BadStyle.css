@@ -41,6 +41,13 @@ div.sidebar {
   }
   div.content {
     flex: 1;
+    position: relative;
+    width: 60%;
+  }
+  div.about, div.professionalHistory, div.skills{
+    position: relative;
+    width: 60%;
+    margin: auto; 
   }
   div.sidebar {
     /* 12em is the width of the columns */
@@ -59,13 +66,7 @@ h1.aboutHeader{
 	flex-basis: 100%;
 }
 
-.rainbowAnimation{
-	animation-name: rainbow;
-	animation-duration: 4s;
-	animation-iteration-count: infinite;
-}
-
-.about{
+.about, .skills, .rainbowAnimation, .professionalHistory{
 	animation-name: rainbow;
 	animation-duration: 4s;
 	animation-iteration-count: infinite;
@@ -84,12 +85,6 @@ div.about {
 	align-items: flex-start;
 	flex-wrap: wrap;
 	background-image: url("uglyBackground.gif");
-}
-
-.professionalHistory{
-	animation-name: rainbow;
-	animation-duration: 4s;
-	animation-iteration-count: infinite;
 }
 
 div.professionalHistory {
@@ -132,7 +127,6 @@ h1.technologies{
 
 div.skills {
 	background-image: url("matrix.gif");
-	color: yellow;
 }
 
 .shrink{
