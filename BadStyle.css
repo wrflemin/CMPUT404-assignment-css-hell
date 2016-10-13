@@ -10,10 +10,9 @@
 
 body {
 	background-image: url("corgi.gif");
-	display: flex; /* or inline-flex */
-	flex-direction: row;
-	align-items: flex-start;
-	flex-wrap: wrap;
+	float: left;
+	width: 100%;
+	position: relative;
 }
 
 head {
@@ -24,9 +23,12 @@ head {
 div.centre {
 	margin-top: 1em;
 	margin-bottom: 1em;
-	margin: auto;
-	width:66%;
+	width:60%;
 	padding: 1em;
+	position:relative;
+	right: 5%;
+  overflow:hidden;
+	float: right;
 }
 
 h1.aboutHeader{
@@ -109,11 +111,14 @@ div.skills {
 
 div.sidebar {
 	background-color: #f44242;
-	height: 100vh;
-	position: relative;
 	margin-right: 1em;
-	display: flex;
-	flex-direction: column;
+	margin-top: 1em;
+	float:left;
+  width:26%;
+  position:relative;
+  left:0%;
+  overflow:hidden;
+	height: 100%;
 }
 
 .shrink{
