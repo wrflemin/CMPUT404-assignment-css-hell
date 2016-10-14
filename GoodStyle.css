@@ -26,6 +26,10 @@ hr {
 	background-image: linear-gradient(to right, rgba(212,211,209,0), rgba(212,211,209,0.75), rgba(212,211,209,0));
 }
 
+li {
+	text-align: left;
+}
+
 div.page-header{
 	background-image: url("HeaderPhoto.jpg");
 	padding: 6em;
