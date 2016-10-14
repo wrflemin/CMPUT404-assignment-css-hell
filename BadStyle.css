@@ -80,7 +80,7 @@ h1.aboutHeader{
 	flex-basis: 100%;
 }
 
-.about, .skills, .rainbowAnimation, .professionalHistory, .sidebar, .page-header{
+hr, .about, .skills, .rainbowAnimation, .professionalHistory, .sidebar, .page-header{
 	animation-name: rainbow;
 	animation-duration: 4s;
 	animation-iteration-count: infinite;

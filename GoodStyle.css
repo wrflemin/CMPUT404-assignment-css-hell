@@ -1,6 +1,6 @@
 @keyframes rainbow {
-    	0% {color: red;}
-    	15% {color: orange;}
+	0% {color: red;}
+	15% {color: orange;}
 	30% {color: yellow;}
 	45% {color: green;}
 	60% {color: blue;}
@@ -19,6 +19,13 @@ head {
 img {
 	align-self: center;
 }
+
+hr {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(212,211,209,0), rgba(212,211,209,0.75), rgba(212,211,209,0));
+}
+
 div.page-header{
 	background-image: url("HeaderPhoto.jpg");
 	padding: 6em;
@@ -54,47 +61,47 @@ h1.sidebar, p.sidebar {
 	text-align: center;
 }
 @media (min-width: 768px) {
-  div.page-header{
-    margin: 0;	  
-    border-bottom: 1em solid #D4D3D1;
-  }
-  div.page-body {
-    flex-direction: row;
-    flex: 1;
-  }
-  div.content {
-    flex: 1;
-    position: relative;
-    width: 70%;
-  }
-  div.content, h1.aboutHeader{
-    text-align: left;
-  }
-  h1.page-header {
-    text-align: right;
-  }
-  div.about, div.professionalHistory, div.skills{
-    position: relative;
-    width: 70%;
-    margin: auto; 
-  }
-  div.about {
-    flex-direction: row !important;
-  }
-  div.sidebar {
-    /* 12em is the width of the columns */
-    flex: 0 0 12em;
-    margin: 0;
-  }
-  p.about {
-	flex-basis: 77%;
-  }
-  h1.aboutHeader{
-	align-self: flex-start;
-  }
-  img {
-	padding-left: 1em;
-  }
+	div.page-header{
+		margin: 0;	  
+		border-bottom: 1em solid #D4D3D1;
+	}
+	div.page-body {
+		flex-direction: row;
+		flex: 1;
+	}
+	div.content {
+		flex: 1;
+		position: relative;
+		width: 70%;
+	}
+	div.content, h1.aboutHeader{
+		text-align: left;
+	}
+	h1.page-header {
+		text-align: right;
+	}
+	div.about, div.professionalHistory, div.skills{
+		position: relative;
+		width: 70%;
+		margin: auto; 
+	}
+	div.about {
+		flex-direction: row !important;
+	}
+	div.sidebar {
+		/* 12em is the width of the columns */
+		flex: 0 0 12em;
+		margin: 0;
+	}
+	p.about {
+		flex-basis: 77%;
+	}
+	h1.aboutHeader{
+		align-self: flex-start;
+	}
+	img {
+		padding-left: 1em;
+	}
 }
 
 h1.aboutHeader{

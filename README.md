@@ -38,3 +38,4 @@ Author: Philip Walton Source: https://philipwalton.github.io/solved-by-flexbox/d
 http://38.media.tumblr.com/2f6118a60889cf570cb565a6d6d555f5/tumblr_nrr5owsRPH1rjlj53o1_400.gif
 Author: ROGER KENNY source: http://www.storybench.org/how-to-make-a-simple-virtual-reality-data-visualization/
 Author: Mike Patch source: http://optimizedude.com/twitter-headers/
+Source: https://css-tricks.com/examples/hrs/
