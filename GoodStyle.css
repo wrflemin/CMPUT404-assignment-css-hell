@@ -17,7 +17,6 @@ head {
 	text-align: centre;
 }
 img {
-	padding-left: 2em;
 	align-self: center;
 }
 div.page-header{
@@ -29,8 +28,7 @@ h1, h2, h3, h4, h5, p, ol, ul {
 	color: #D4D3D1;
 }
 h1.page-header {
-	text-align: right;
-	text-align: bottom;
+	text-align: center;
 	text-shadow: 2px 2px #222222;
 }
 
@@ -72,6 +70,9 @@ h1.sidebar, p.sidebar {
   div.content, h1.aboutHeader{
     text-align: left;
   }
+  h1.page-header {
+    text-align: right;
+  }
   div.about, div.professionalHistory, div.skills{
     position: relative;
     width: 70%;
@@ -91,6 +92,9 @@ h1.sidebar, p.sidebar {
   h1.aboutHeader{
 	align-self: flex-start;
   }
+  img {
+	padding-left: 1em;
+  }
 }
 
 h1.aboutHeader{
@@ -102,7 +106,7 @@ h1.aboutHeader{
 }
 
 p.about {
-	padding-left: 2em;
+	padding-left: 1em;
 	padding-right: 1em;
 }
 
