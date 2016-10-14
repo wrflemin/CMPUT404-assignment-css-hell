@@ -67,7 +67,6 @@ h1.sidebar, p.sidebar {
 @media (min-width: 768px) {
 	div.page-header{
 		margin: 0;	  
-		border-bottom: 1em solid #D4D3D1;
 	}
 	div.page-body {
 		flex-direction: row;

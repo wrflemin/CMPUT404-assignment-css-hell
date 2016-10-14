@@ -21,6 +21,10 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+Collaborators
+=============
+Alex Makepeace
+
 Changes to HTML
 =================
 Added this line: <link href="Style.css" rel="stylesheet" type="text/css">
